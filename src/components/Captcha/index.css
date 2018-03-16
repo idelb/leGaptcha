@@ -1,0 +1,48 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+.captcha {
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fafafa;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.hidden {
+  display: none;
+  display: block;
+}
+
+.captcha .cols {
+  flex-grow: 0;
+  white-space: nowrap;
+  margin: 0 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.captcha .cols .logo img {
+  width: 60px;
+}
+
+.captcha .cols .name {
+  color: #ababab;
+}
+
+.captcha .cols span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.captcha .checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+  box-shadow: inset 0px 0px 1px 0px #0000003b;
+  cursor: pointer;
+}
